@@ -1,0 +1,155 @@
+body{
+	background: #C8C8C8;
+	margin: 0;
+}
+
+.whole{
+	width: 960px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: white;
+	overflow: hidden;
+}
+
+
+header{	
+	margin-bottom: 100px;
+	padding-top: 10px;
+}
+
+h1{	
+	text-indent: -9999px;
+}
+.head_anchor{
+	background: url(img/logo.png)no-repeat;
+	width: 263px;
+	height: 60px;
+	float: left;
+}
+
+
+
+.navigation{
+	clear: both;
+}
+.navigation ul{
+	padding-left: 0px;
+}
+.navigation li{
+	list-style: none;
+}
+.navigation a{
+	background: #FF3636;
+	color: #FFE8E8;
+	letter-spacing: 1px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 238px;
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid white;
+}
+.navigation .first_nav{
+	border-left: 1px solid #FF3636;
+}
+.navigation .last_nav{
+	border-right: 1px solid #FF3636;
+}
+.navigation a:hover{
+	background: #FF0000;
+}
+
+
+
+
+.content{
+	clear: both;
+	width: 100%;
+	min-height: 500px;
+}
+.side_navigation{
+	clear: both;
+	padding-top: 20px;
+	float: left;
+	overflow: hidden;
+}
+.side_navigation ul{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.side_navigation li{
+	list-style: none;
+	text-transform: uppercase;
+}
+.side_navigation a{	
+	background: #FF3636;
+	color: #FFE8E8;
+	letter-spacing: 1px;
+	text-decoration: none;
+	display: block;
+	width: 176px;
+	text-align: center;
+	padding: 8px 0;
+	border: 1px solid white;
+}
+.side_navigation a:hover{
+	background: #FF0000;
+}
+
+
+.products_banner{
+	margin: 36px 0 30px;
+	overflow: hidden;
+	background: url(img/products_banner.jpg)no-repeat;
+	float: right;
+	width: 772px;
+	height: 393px;
+}
+.products_banner h2{
+	margin: 12px 0 0 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	background: rgba(0,0,0,0.2);
+	float: left;
+	padding: 5px;
+}
+
+
+
+
+.search_content{
+	float: left;
+	max-width: 760px;
+	margin-bottom: 50px;
+}
+.single_outside{
+	padding: 36px 20px 0px;
+	float: left;	
+}
+
+a .single{
+	border: 2px solid #FF3636;
+	width: 200px;
+	height: 230px;
+}
+a .single p{
+	color: #FF3636;
+}
+.single img{
+	max-width: 180px;
+	max-height: 155px;
+	padding: 0 10px;
+}
+a .single:hover{
+	border: 2px solid blue;
+}
+.single_outside a{
+	text-align: center;
+	text-decoration: none;
+	line-height: 18px;
+}

@@ -1,0 +1,5 @@
+For login:
+	
+username: admin
+	
+password: secret12345

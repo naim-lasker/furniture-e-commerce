@@ -1,0 +1,98 @@
+body{
+	background: #C8C8C8;
+	margin: 0;
+}
+
+.whole{
+	width: 960px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: white;
+	overflow: hidden;
+}
+
+
+header{	
+	margin-bottom: 100px;
+	padding-top: 10px;
+}
+
+h1{	
+	text-indent: -9999px;
+	background: url(img/logo.png)no-repeat;
+	width: 263px;
+	height: 60px;
+	float: left;
+}
+
+
+#logout_button{
+	font-size: 22px;
+}
+
+
+.intro{
+	font-size: 30px;
+	color: #AF3636;
+}
+
+
+
+.content{
+	clear: both;
+	padding: 30px 0 50px 50px;
+	min-height: 400px;
+}
+
+hr{ display: block;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid #FF3636;
+}
+form{
+	color: #FF3636;
+}
+.title{
+	font-size: 20px;
+	color: #AF3636
+}
+
+
+
+
+#image{
+	margin-left: 25px;
+}
+#set_p_category{
+	margin-left: 20px;
+}
+#set_price{
+	margin-left: 75px;
+}
+
+
+
+#district{
+	margin-left: 25px;
+}
+#location{
+	margin-left: 15px;
+	vertical-align: top;
+}
+#contact{
+	width: 130px;
+}
+#span_contact{
+	color: #777;
+}
+
+
+
+
+#old_pass{
+	margin-left: 30px;
+}
+#new_pass{
+	margin-left: 23px;
+}
